@@ -243,59 +243,67 @@
 
                                     <div class="card-body bg-aqua">
 
-                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing
                                             elit. Quis, asperiores nihil molestiae expedita hic doloribus officia minima
-                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae cupiditate
+                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae
+                                            cupiditate
                                             reiciendis, doloribus quidem?</p>
                                     </div>
 
                                 </div>
                             </div>
-                             <!-- Tarjeta 2 -->
-                             <div class="col-sm-12 col-md-3">
+                            <!-- Tarjeta 2 -->
+                            <div class="col-sm-12 col-md-3">
                                 <div class="card bg-black">
 
                                     <img class="card-img-top" src="assets/img/card2.jpg" alt="...">
 
                                     <div class="card-body bg-aqua">
 
-                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing
                                             elit. Quis, asperiores nihil molestiae expedita hic doloribus officia minima
-                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae cupiditate
+                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae
+                                            cupiditate
                                             reiciendis, doloribus quidem?</p>
                                     </div>
 
                                 </div>
                             </div>
 
-                              <!-- Tarjeta 3 -->
-                              <div class="col-sm-12 col-md-3">
+                            <!-- Tarjeta 3 -->
+                            <div class="col-sm-12 col-md-3">
                                 <div class="card bg-black">
 
                                     <img class="card-img-top" src="assets/img/card3.jpg" alt="...">
 
                                     <div class="card-body bg-aqua">
 
-                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing
                                             elit. Quis, asperiores nihil molestiae expedita hic doloribus officia minima
-                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae cupiditate
+                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae
+                                            cupiditate
                                             reiciendis, doloribus quidem?</p>
                                     </div>
 
                                 </div>
                             </div>
 
-                             <!-- Tarjeta 4 -->
-                             <div class="col-sm-12 col-md-3">
+                            <!-- Tarjeta 4 -->
+                            <div class="col-sm-12 col-md-3">
                                 <div class="card bg-black">
 
                                     <img class="card-img-top" src="assets/img/card4.jpg" alt="...">
 
                                     <div class="card-body bg-aqua">
 
-                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing
                                             elit. Quis, asperiores nihil molestiae expedita hic doloribus officia minima
-                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae cupiditate
+                                            illum! Ducimus voluptates aperiam officiis iure accusantium est quae
+                                            cupiditate
                                             reiciendis, doloribus quidem?</p>
                                     </div>
 
@@ -310,8 +318,42 @@
         </section>
 
         <!-- sección formulario de contacto -->
-        <section>
-           
+        <section class="bg-black">
+            <div class="text-center">
+                <h3 class="text-light py-5">CONTACTO</h1>
+            </div>
+            <div class="mx-5 my-5 text-white bg-black">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Nombre:</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1"
+                            data-toggle="tooltip" data-placement="top" data-html="true"
+                            title="<em>Escriba aquí <b><u>su nombre</u></b></em>">
+                    </div>
+                   
+
+                    <div class="form-group">
+                        <label for="exampleFormControlInput2">Apellido:</label>
+                        <input type="lastname" class="form-control" id="exampleFormControlInput2"
+                            data-toggle="tooltip" data-placement="top" data-html="true"
+                            title="<em>Escriba aquí <b><u>su apellido</u></b></em>">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                        data-toggle="tooltip" data-placement="top" data-html="true"
+                            title="<em>Escriba aquí <b><u>sus inquietudes y/o comentarios</u></b></em>"
+                            placeholder="Escriba aquí sus inquietudes y/o comentarios"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <a href="#" class="btn btn-primary bg-aqua" data-toggle="tooltip" data-placement="right"
+                            data-toggle="tooltip" data-placement="top" data-html="true"
+                            title="" data-original-title="Presiona el botón para enviar!">Enviar</a>
+                    </div>
+                </form>
+            </div>
         </section>
 
         <!-- footer con links a las redes sociales -->
@@ -322,6 +364,11 @@
     <footer>
 
     </footer>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
