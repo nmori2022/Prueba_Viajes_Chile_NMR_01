@@ -1,3 +1,23 @@
-.bg-magenta {
-    background-color: #e83e8c;
+
+.bg-transparent{
+    background-color: transparent;
 }
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+div.card, div.card-body{
+    /* padding:0px;
+    margin: 0px; */
+    border: 0px;
+}
+
